@@ -1,0 +1,16 @@
+.theme-bg {
+  background-color: #0f2f4f;
+}
+.theme-txt {
+  color: #aaaaaa;
+}
+.theme-element {
+  background-color: #0a1f3f;
+}
+.zoom {
+  transition: transform 0.4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.02);
+}

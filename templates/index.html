@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/static/colors.css" />
+    <title>JForseth.tech</title>
+  </head>
+  <body class="theme-bg theme-txt">
+    <div class="container-fluid">
+      <h1>Welcome to JForseth.tech</h1>
+    </div>
+    <nav>
+      <ul class="nav theme-element">
+        <li class="nav-item">
+          <a class="nav-link active theme-txt" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-txt" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-txt" href="#">Pleroma</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-txt" href="#">Nextcloud</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link theme-txt" href="#">CowCams</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-fluid my-3">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="static/justin.JPG" class="img-thumbnail" />
+        </div>
+        <div class="col-sm-10">
+          <h1>About Me</h1>
+          <p>
+            Hello! My name is Justin Forseth and I am a high school senior from
+            rural Montana. I enjoy making websites (obviously), like this one,
+            <a href="https://fairfieldffa.org/">fairfieldffa.org</a>,
+            <a href="classes.jforseth.tech">classes.jforseth.tech</a>, and more.
+            This is my personal website, which I created for experimenting,
+            testing, and trying new things.
+            <br />
+            <br />
+            I also make videos, for my personal YouTube channel (which you can
+            find at <a href="/videos">jforseth.tech/videos</a>), as well for my
+            school
+            <a href="https://www.facebook.com/FairfieldEaglesMT/"
+              >Facebook page</a
+            >, as well as the various project for 4-H and FFA.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <h1>My Stuff</h1>
+      <p>Stuff I coded myself</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card zoom theme-element m-1 p-3 my-4">
+            <a class="text-light" href="https://classes.jforseth.tech">
+              <h3>Classes</h3>
+              <br />
+              <img
+                class="img-thumbnail"
+                src="static/classes.png"
+                alt="Screenshot of the classes.jforseth.tech page"
+              />
+            </a>
+            <br />
+            <p>
+              A video call manager I made for online class. The user is able to
+              select their classes, and then have them automatically open when
+              the 'bell rings'. Users have the option of authenticating with a
+              phone number to add new classes, modify links, and delete classes.
+            </p>
+            <a href="https://classes.jforseth.tech" class="btn btn-primary"
+              >Visit</a
+            >
+          </div>
+        </div>
+      </div>
+      <h1>Self-Hosting</h1>
+      <p>Projects that I didn't create myself, but run on my server.</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card zoom theme-element m-1 p-3 my-4">
+            <a class="text-light" href="https://pleroma.jforseth.tech">
+              <h3>Pleroma</h3>
+              <br />
+              <img
+                class="img-thumbnail"
+                src="static/pleroma.png"
+                alt="Screenshot of the pleroma.jforseth.tech page"
+              />
+            </a>
+            <br />
+            <p>
+              My very own social network! It's a
+              <a href="https://pleroma.social/">Pleroma</a> instance (part of a
+              decentalized social network known as the
+              <a href="https://jointhefedi.com/">Fediverse</a>). My instance
+              runs the <a href="https://soapbox.pub/">Soapbox UI</a>. Basically,
+              it's Twitter, except instead of being run by one big company, I
+              can run one server, and have it intact with someone else's. Still
+              working on getting everything set up.
+            </p>
+            <a href="https://pleroma.jforseth.tech" class="btn btn-primary"
+              >Visit</a
+            >
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card zoom theme-element m-1 p-3 my-4">
+            <a class="text-light" href="https://nextcloud.jforseth.tech">
+              <h3>Nextcloud</h3>
+              <br />
+              <img
+                class="img-thumbnail"
+                src="static/nextcloud.png"
+                alt="Screenshot of the nextcloud.jforseth.tech page"
+              />
+            </a>
+            <br />
+            <p>
+              This is my Nextcloud instance. It does all sorts of cool stuff:
+              File sharing, calendars, to-do lists, contacts, even messaging. Best of all, it supports open standards, so it works with apps like <a href="https://tasks.org/">Tasks.org</a></p>
+            </p>
+            <a href="https://nextcloud.jforseth.tech" class="btn btn-primary"
+              >Visit</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
